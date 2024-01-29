@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Quartz';
+    src: url(fonts/QuartzoBold-W9lv.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Typographica';
+    src: url(fonts/Typographica-Blp5.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url(fonts/proximanova_regular.ttf) format('truetype');
+}
+
+.title{
+    font-size: calc(40px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
+}
+
+.my-name{
+    font-family: 'Typographica', sans-serif;
+}
+
+.proxima{
+    font-family: 'proxima-nova', sans-serif; 
+}
